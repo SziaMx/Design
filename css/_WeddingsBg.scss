@@ -1,0 +1,113 @@
+/* Style Tables */
+
+@mixin Back {
+    -webkit-transition: background-image 0.3s ease, background-position 0.3s;
+	transition: background-image 0.3s ease, background-position 0.3s;
+    background-blend-mode: normal;
+    &:hover {
+	   background-position: 50% 50%;
+        background-blend-mode: soft-light;
+    }
+}
+
+.PyC {
+	background-image: url('../Weddings/PyC/portada.jpg');
+    @include Back;
+}
+
+.ZyJ {
+	background-image: url('../Weddings/ZyJ/portada.jpg');
+    @include Back;
+}
+
+.LyR {
+	background-image: url('../Weddings/LyR/portada.jpg');
+    @include Back;
+}
+
+.KyJ {
+	background-image: url('../Weddings/KyJ/portada.jpg');
+    @include Back;
+}
+
+.KyR {
+	background-image: url('../Weddings/KyR/portada.jpg');
+    @include Back;
+}
+
+.MyM {
+    background-image: url('../Weddings/MyM/portada.jpg');
+    @include Back;
+}
+
+.LyD {
+    background-image: url('../Weddings/LyD/portada.jpg');
+    @include Back;
+}
+
+.MyO {
+    background-image: url('../Weddings/MyO/portada.jpg');
+    @include Back;
+}
+
+.DyG {
+    background-image: url('../Weddings/DyG/portada.jpg');
+    @include Back;
+}
+
+.ByP {
+    background-image: url('../Weddings/ByP/portada.jpg');
+    @include Back;
+}
+
+.ALyJM {
+    background-image: url('../Weddings/ALyMJ/portada.jpg');
+    @include Back;
+}
+
+.CyG {
+    background-image: url('../Weddings/CyG/portada.jpg');
+    @include Back;
+}
+
+.DyA {
+    background-image: url('../Weddings/DyA/portada.jpg');
+    @include Back;
+}
+
+.FyE {
+    background-image: url('../Weddings/FyE/portada.jpg');
+    @include Back;
+}
+
+.IyR {
+    background-image: url('../Weddings/IyR/portada.jpg');
+    @include Back;
+}
+
+.MyJ {
+    background-image: url('../Weddings/MyJ/portada.jpg');
+    @include Back;
+}
+
+.JyM {
+    background-image: url('../Weddings/JyM/portada.jpg');
+    @include Back;
+}
+
+
+
+
+
+
+
+
+
+.Social {
+	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
+	transition: background-image 0.3s ease, background-position 0.3s;
+	background-image: url('../img/deafult_thumb.jpg');
+}
+.Social:hover {
+	background-position: 50% 50%;
+}

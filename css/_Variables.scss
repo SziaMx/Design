@@ -1,0 +1,88 @@
+/**************************
+Colors
+**************************/
+
+$Rosa: #ebced0;
+
+$Gris: #77777A;
+
+$LighGray: #E8E9EA;
+
+$Azul: #474d5a;
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 72px;
+	color: white;
+	font-weight: lighter;
+	@media (max-width: 400px) {
+		font-size:  50px;
+		line-height: 52px;
+	}
+	span {
+		background: $Azul;
+		padding: 0 50px 0 0;
+	}
+}
+
+h1.white {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 72px;
+	color: $Azul;
+	font-weight: lighter;
+	@media (max-width: 400px) {
+		font-size:  50px;
+		line-height: 52px;
+	}
+	span {
+		background: white;
+		padding: 0 50px 0 0;
+	}
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 0;
+	b {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 80px;
+		position: relative;
+		top: 15px;
+		padding: 10px 20px 0 20px;
+	}
+}
+
+@mixin BgLine {
+	background-image: url(../img/LinePink.png);
+	background-position: center center;
+	background-repeat: repeat-x;
+}
+
+@mixin BgLineWhite {
+	background-image: url(../img/Line.png);
+	background-position: center center;
+	background-repeat: repeat-x;
+}
+
+@mixin Spaces {
+	margin: 25px 0;
+}
+
+@mixin InSideSpaces {
+	padding: 20px;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+
